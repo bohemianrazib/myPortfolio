@@ -1117,6 +1117,23 @@ body.dark .shadow-dark{
     p{
         word-break: break-word;
     }
+    .responsive-map-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+    
+    .responsive-map-container iframe,   
+    .responsive-map-container object,  
+    .responsive-map-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 
@@ -1155,25 +1172,4 @@ body.dark .shadow-dark{
     .about .about-content .skills .skill-item h5{
         font-size: 14px;
     }
-}
-
-
-/* responsive maps */
-
-.responsive-map-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
-
-.responsive-map-container iframe,   
-.responsive-map-container object,  
-.responsive-map-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
